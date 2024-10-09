@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainForm{
+    margin: 50px 0 15px 0px;
+}
+
+#getWeather{
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: #4dff4d;
+    border: 2px solid black;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#getWeather:hover{
+    background-color: #53cc53;
+}
+#input{
+    padding: 10px 40px;
+    margin: 0 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    color: black;
+}
+
+
+.card{
+    background: linear-gradient(180deg, #6f9fec,#d98258);
+    padding: 50px;
+    box-shadow: 10px 10px 10px #dd6161;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h1{
+    font-size: 3.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px 0 25px 0;
+}
